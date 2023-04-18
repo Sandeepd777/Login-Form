@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="login-box">
+        <h1><img src="https://static.vnative.co/images/5c1b3d0a54dac.png" alt="logo"></h1>
+        <form action="https://login.proformics.com/auth/login" method="POST">
+            <input type="hidden" name="affiliate_id" value="YOUR-AFFILIATE-ID">
+            <input type="text" id="username" name="username" placeholder="Email" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <div class="checkbox checkbox-primary">
+                <input id="checkbox-signup" name="remember_me" value="1" type="checkbox">
+                <label for="checkbox-signup">
+                    Remember me (30 days)
+                </label>
+            </div>
+          <div class="btn"> <input type="submit" value="Login"></div> 
+        </form>
+
+        <div class="forget">
+            <div class="">
+            <a href="https://login.proformics.com/auth/forgot_password" class="text-muted"><i class="fa fa-lock m-r-5"></i> Forgot your password?</a>
+            </div>
+            <div class="">
+            <a href="/register.html" class="text-muted">Create an account</a>
+            </div>
+            </div>
+            <hr style="     margin-top: 1rem;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: 1px solid rgba(0,0,0,.1);">
+            <h5>
+                - View our <a target="_blank" href="">Privacy Policy</a><br>
+                - You must have <a target="_blank" href="https://www.google.com/cookies.html">cookies enabled</a> to use this site (cookies enabled) <a target="_blank" href="">terms and conditions</a>
+                </h5>
+    </div>
+</body>
+
+</html>

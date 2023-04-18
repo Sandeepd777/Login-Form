@@ -1,0 +1,104 @@
+   body {
+        font-family: Arial, sans-serif;
+        background-color: #f1f1f1;
+      }
+      .login-box {
+        max-width: 400px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #ccc;
+      }
+      h1 {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      label {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      input[type="text"],
+      input[type="password"] {
+        width: 94%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+      }
+      input[type="submit"] {
+    margin: 0 auto;
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #343c49;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-bottom: 2px solid #2494be !important;
+      }
+      input[type="submit"]:hover {
+        background-color: #434d5e;
+      }
+      .forgot-password {
+        margin-top: 20px;
+        text-align: center;
+      }
+      .forgot-password a {
+        color: #4CAF50;
+        text-decoration: none;
+      }
+      .forgot-password a:hover {
+        text-decoration: underline;
+      }
+
+      .checkbox label {
+        display: inline-block;
+        padding-left: 5px;
+        position: relative;
+        font-weight: 500;
+        font-size: 13px;
+        outline: none!important;
+    }
+    
+
+    form .btn {
+        text-align: end;
+    }
+
+    .forget {
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px!important;
+    }
+    .text-muted {
+        font-style: italic;
+        opacity: .8;
+        color: #98a6ad!important;
+        text-decoration: none;
+    background-color: transparent;
+    transition: color .3s;
+    cursor: pointer;
+    font-size: 14px;
+    }
+    h5 {
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+    }
+    h5 a {
+        color: #007bff;
+        text-decoration: none;
+        background-color: transparent;
+        cursor: pointer;
+        transition: color .3s;
+    }
